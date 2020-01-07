@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+    softbluesql-mysql:
+        build:
+            context: .
+        environment: 
+            - MYSQL_DATABASE=db_escola_softblue
+            - MYSQL_USER=user_admin
+            - MYSQL_PASSWORD=asterix2108@
+            - MYSQL_ROOT_PASSWORD=toor
+            - TZ=${WORKSPACE_TIMEZONE}
+        volumes:
+            - "./.docker/dbdata:/var/lib/mysql"
+        ports:
+            - "3306:3306"
+        
