@@ -23,6 +23,19 @@ create table tb_salarys(
 	end double not null
 );
 
+create table tb_cpfs (
+	id int unsigned primary key,
+	cpf varchar(14) not null,
+	constraint fk_id foreign key (id) references tb_colaborators (id)
+);
+
+create table tb_clients(
+	id int unsigned auto_increment primary key,
+	name varchar(100) not null,
+	indication int unsigned,
+	constraint fk_indicate foreign key (indication) references tb_clients(id)
+);
+
 
 show tables;
 
