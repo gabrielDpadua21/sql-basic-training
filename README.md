@@ -1,6 +1,19 @@
-# Curso de SQL completo Softblue
+# Trinamento básico de SQL - Softblue
 
-## Projeto de banco de dados para escola de programação.
+[softblue.com.br](https://softblue.com.br/site/curso/id/3/CURSO+DE+SQL+COMPLETO+BASICO+AO+AVANCADO+ON+LINE+BD03+GRATIS)
+
+---
+
+## Desenvolvido com
+
+<div align="center">
+  <img src="https://img.icons8.com/fluency/48/000000/mysql-logo.png" alt="mysql" style="zoom: 150%"/>
+  <img src="https://img.icons8.com/nolan/64/sql.png" alt="sql" style="zoom: 150%"/>
+</div>
+
+---
+
+# Projeto
 
 ### Banco de dados
 
@@ -88,5 +101,12 @@ id_course (FK)      | INT NOT NULL
 id_request (FK)     | INT NOT NULL
 rq_price            | FLOAT NOT NULL
 
+---
+
+
+### License
+
+Copyright © 2021, [Gabriel D. Padua](https://github.com/gabrielDpadua21).
+Released under the [MIT license](LICENSE).
 
 
